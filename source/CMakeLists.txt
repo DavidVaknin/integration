@@ -8,6 +8,5 @@ add_library(${TARGET_NAME}
 target_include_directories(${TARGET_NAME}
   INTERFACE ./)
 
-install(TARGETS ${TARGET_NAME}
-  PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ
+sudo make install(TARGETS ${TARGET_NAME}
   ARCHIVE DESTINATION lib/)
