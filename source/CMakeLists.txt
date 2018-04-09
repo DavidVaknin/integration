@@ -9,4 +9,4 @@ target_include_directories(${TARGET_NAME}
   INTERFACE ./)
 
 install(TARGETS ${TARGET_NAME}
-  ARCHIVE DESTINATION /home/matt/)
+  ARCHIVE DESTINATION /home/matt/Documents/DuduV/unitTests/integration/integration_result)
